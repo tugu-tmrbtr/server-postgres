@@ -1,0 +1,42 @@
+### Game
+GET http://localhost:8080/api/games
+###
+GET http://localhost:8080/api/games/a1e836c6-04f3-40d5-9fa0-3e2a680657b8
+###
+POST http://localhost:8080/api/games
+Content-Type: application/json
+
+{
+	"name": "RE4"
+}
+###
+PUT http://localhost:8080/api/games/c0d015c9-f441-4689-80c1-95be49b40bd2
+Content-Type: application/json
+
+{
+	"name": "Resident Evil 4"
+}
+###
+DELETE http://localhost:8080/api/games/17a5f224-44e5-4bf4-a073-a2e2b82c2f15
+
+### User
+GET http://localhost:8080/api/users
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+	"name": "Ada",
+	"games": "Resident evil"
+}
+###
+PUT http://localhost:8080/api/users/f085636a-1aa6-4bc1-beb0-dde2ef3d92c5
+Content-Type: application/json
+
+{
+	"name": "Ada wong",
+}
+###
+DELETE http://localhost:8080/api/users/845a8fea-70cf-43c4-91a3-47801fe597bd
+###
+GET http://localhost:8080/api/users/72943a47-2b1f-4c56-8ff0-4d3933461bc5
