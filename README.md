@@ -32,7 +32,6 @@ Simple User, Game relation and CRUD example of Node.js Rest APIs with Express, P
    ```
    DATABASE_URL="postgresql://<username>:<password>@<host_name>:<port>/<database_name>?schema=public"
    ```
-
    Create a .env file at the root of the project populate it with the url of your database.
 
 5. Start the development server:
@@ -43,7 +42,6 @@ Simple User, Game relation and CRUD example of Node.js Rest APIs with Express, P
    # Using Yarn
    yarn run server
    ```
-
    Now you should be able to see the project running at localhost:8080.
 
 6. Open `./server.js` in your editor and start experimenting!
@@ -55,7 +53,6 @@ Simple User, Game relation and CRUD example of Node.js Rest APIs with Express, P
    ```
    npx prisma migrate dev
    ```
-
    Create migrations from your Prisma schema, apply them to the database, generate artifacts (e.g. Prisma Client)
 
 2. Launch Prisma Studio
@@ -63,7 +60,6 @@ Simple User, Game relation and CRUD example of Node.js Rest APIs with Express, P
    ```
    npx prisma studio
    ```
-
    Now you should be able to see the studio running at localhost:5555.
 
 3. Database Pull
@@ -71,7 +67,6 @@ Simple User, Game relation and CRUD example of Node.js Rest APIs with Express, P
    ```
    npx prisma db pull
    ```
-
    Pull the schema from an existing database, updating the Prisma schema.
 
 4. Database Push
@@ -79,5 +74,4 @@ Simple User, Game relation and CRUD example of Node.js Rest APIs with Express, P
    ```
    npx prisma db push
    ```
-
    Push the Prisma schema state to the database.
